@@ -48,14 +48,14 @@ while 1:        #循环条件为1必定成立
 
 # 无限循环
 #example2
-'''
+
 var = 1
 while var == 1: # 该条件永远为true，循环将无限执行下去
-     num = raw_input("Enter a number  :")
+    num = int(input("Enter a number  :"))
     print("You entered:", num)
 
 print("Good bye!") # 以上的无限循环可以用CTRL+C来中断循环
-'''
+
 
 #循环使用else语句
 count = 0

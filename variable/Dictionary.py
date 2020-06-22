@@ -37,3 +37,14 @@ ord(x)                 将一个字符转换为它的整数值
 hex(x)                 将一个整数转换为一个十六进制字符串
 oct(x)                 将一个整数转换为一个八进制字符串
 '''
+
+'''构造函数dic()可以直接从键值对序列中构造字典如下：
+dict([('Runoob', 1),('Google', 2),('Taobao',3)])
+{'Runoob': 1, 'Google': 2, 'Taobao': 3}
+
+{x: x**2 for x in (2,4,6)}
+{2: 4, 4: 16, 6: 36}
+
+dict(Runoob=1, Google=2, Taobao=3)
+{'Runoob': 1, 'Google': 2, 'Taobao': 3}
+'''
